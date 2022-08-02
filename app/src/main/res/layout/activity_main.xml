@@ -1,18 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="2dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btn_a"
+            style="@style/Button"
+            android:text="@string/a" />
+
+        <Button
+            android:id="@+id/btn_b"
+            style="@style/Button"
+            android:text="@string/b" />
+
+        <Button
+            android:id="@+id/btn_c"
+            style="@style/Button"
+            android:text="@string/c" />
+
+        <Button
+            android:id="@+id/btn_d"
+            style="@style/Button"
+            android:text="@string/d" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_e"
+            style="@style/Button"
+            android:text="@string/e" />
+
+        <Button
+            android:id="@+id/btn_f"
+            style="@style/Button"
+            android:text="@string/f" />
+
+        <Button
+            android:id="@+id/btn_g"
+            style="@style/Button"
+            android:text="@string/g" />
+
+        <Button
+            android:id="@+id/btn_h"
+            style="@style/Button"
+            android:text="@string/h" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_i"
+            style="@style/Button"
+            android:text="@string/i" />
+
+        <Button
+            android:id="@+id/btn_j"
+            style="@style/Button"
+            android:text="@string/j" />
+
+        <Button
+            android:id="@+id/btn_k"
+            style="@style/Button"
+            android:text="@string/k" />
+
+        <Button
+            android:id="@+id/btn_l"
+            style="@style/Button"
+            android:text="@string/l" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_m"
+            style="@style/Button"
+            android:text="@string/m" />
+
+        <Button
+            android:id="@+id/btn_n"
+            style="@style/Button"
+            android:text="@string/n" />
+
+        <Button
+            android:id="@+id/btn_o"
+            style="@style/Button"
+            android:text="@string/o" />
+
+        <Button
+            android:id="@+id/btn_blank"
+            style="@style/Button" />
+    </TableRow>
+</TableLayout>
